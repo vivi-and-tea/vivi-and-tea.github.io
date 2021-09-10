@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
     <meta charset="utf-8">
 
@@ -12,16 +13,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Baloo+2&family=Coming+Soon&family=Hina+Mincho&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
 
 <style>
-.big-header {
-  font-size: 5vw;
-  color: #000;
+img {
+  max-width:100%;
+  height:auto;
 }
 
+@media (max-width: 550px) {
+.big-header { font-size: 9vw;
+  color: #000;
+  text-align: center;
+}
 .sub-header {
-  font-size: 1.5em;
+  font-size: 4vw;
   color: #000;
   text-align: justify;
+  text-align: center;
 }
+}
+
+@media (min-width: 551px) {
+.big-header {
+  font-size: 9vw;
+  color: #000;
+}
+.sub-header {
+  font-size: 3vw;
+  color: #000;
+  text-align: justify;
+  }
+}
+
+@media (min-width: 1024px) {
+.big-header {
+  font-size: 4.5vw;
+  color: #000;
+}
+.sub-header {
+  font-size: 1.2vw;
+  color: #000;
+  text-align: justify;
+  }
+}
+
 
 .topdiv {
   background-color: #eccd1f;
@@ -58,8 +91,30 @@
   </head>
   <body>
 
-    <section class="section topdiv is-medium">
+<!-- <div class="container is-fullhd">
 
+  <section class="section is-medium">
+
+  <div class="columns is-desktop">
+    <div class="column">
+      <img src="self500.png">
+    </div>
+    <div class="column">
+
+    </div>
+    <div class="column">
+      <h1 class="big-header comingsoon">
+        Valerie Yamanaka
+      </h1>
+      <p class="open sub-header">is a beginner programmer, cat-lover,
+        <br> board-game collector, and beer enthusiast
+    </div>
+  </div>
+  </section>
+</div> -->
+
+<div class="container.is-fullhd">
+    <section class="section topdiv is-medium">
       <div class="columns is-desktop">
         <div class="column"></div>
         <div class="column is-4"><img src="self500.png"></div>
@@ -67,14 +122,14 @@
           <h1 class="big-header comingsoon">
             Valerie Yamanaka
           </h1>
-          <!-- <p class="open sub-header">is a beginner programmer, cat-lover,
-            <br> board-game collector, and beer enthusiast. -->
+          <p class="open sub-header">is a beginner programmer, cat-lover,
+            <br> board-game collector, and beer enthusiast.
         </div>
         <div class="column"></div>
       </div>
-
-
     </section>
+  </div>
+
 
   </body>
 </html>
