@@ -1,0 +1,107 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 550px) {
+  .big-header {
+    font-size: 9vw;
+    color: #000;
+    text-align: center;
+  }
+
+  .sub-header {
+    font-size: 4vw;
+    color: #000;
+    text-align: justify;
+    text-align: center;
+  }
+
+  .greeting-text {
+    font-size: 4vw;
+  }
+
+  .center-when-small {
+    text-align: center;
+  }
+}
+
+@media (min-width: 551px) {
+  .big-header {
+    font-size: 9vw;
+    color: #000;
+  }
+
+  .sub-header {
+    font-size: 3vw;
+    color: #000;
+    text-align: justify;
+  }
+
+  .greeting-text {
+    font-size: 3.5vw;
+  }
+
+  .center-when-small {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .big-header {
+    font-size: 5vw;
+    color: #000;
+  }
+
+  .sub-header {
+    font-size: 2vw;
+    color: #000;
+    text-align: justify;
+  }
+
+  .greeting-text {
+    font-size: 1vw;
+  }
+}
+
+
+.div-one {
+  /* background-color: #eccd1f; YELLOW*/
+  background-color: #FCF8E8;
+}
+
+.div-two {
+  background-color: #D4E2D4;
+}
+
+.div-three {
+  background-color: #ECB390;
+}
+
+.div-four {
+  background-color: #DF7861;
+}
+
+.abril {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.baloo {
+  font-family: 'Baloo 2', cursive;
+}
+
+.comingsoon {
+  font-family: 'Coming Soon', cursive;
+}
+
+.hina {
+  font-family: 'Hina Mincho', serif;
+}
+
+.opensans {
+  font-family: 'Open Sans', sans-serif;
+}

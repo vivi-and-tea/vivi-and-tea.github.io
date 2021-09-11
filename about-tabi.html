@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- BULMA CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Baloo+2&family=Coming+Soon&family=Hina+Mincho&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+  <!-- ICONS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Original Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Valerie Yamanaka | Portfolio</title>
+
+  <style>
+  body {
+    background-color: #d36950 !important;
+    background-image: linear-gradient(#FCF8E8 0% 30%, #D4E2D4 30% 70%, #ECB390 70% 100%);
+  }
+
+  b, i {
+    color: #c78f6d;
+  }
+
+
+  .fullsize {
+    height: 100vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container is-fullhd fullsize">
+
+    <div class="columns">
+      <div class="column"></div>
+      <div class="column is-6 pt-6">
+        <div class="box mt-6">
+          <h1 class="big-header comingsoon has-text-centered">TabiNyans</h1>
+          <hr><br>
+          <center><img src="tabitest-ds.gif"></center>
+          <br>
+          <p class="has-text-justified block"><ion-icon name="paw-outline"></ion-icon> <i>TabiNyans</i> is a mock hotel reservation and review website with a theme
+            close to my heart: cat hotels. Any cat-lover knows that it's hard to find a good pet hotel that also accepts cats.
+            <i>TabiNyans</i> is a (fictional) answer to that problem.
+
+          <p class="has-text-justified block"><i>TabiNyans</i> was created with <b>Python</b> in <b>Django</b>. It was originally created using Django's default <b>sqlite</b> database,
+            which was then migrated to a <b>postgreSQL</b> database for production. Front-end was created with the help of the <b>UIkit</b> Framework.
+
+
+          <p class="has-text-justified block">Static files were served by <b>AWS S3</b>, the database managed by <b>AWS RDS</b>, and deployment handled by <b>AWS App Runner</b>.
+
+            <hr>
+
+            <br>
+            <center><img src="tabi-login.gif"></center>
+        </div>
+      </div>
+      <div class="column"></div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
