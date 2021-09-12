@@ -11,16 +11,31 @@
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Baloo+2&family=Coming+Soon&family=Hina+Mincho&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&?family=Noto+Sans+JP:wght@100;300;400&display=swap&family=Kosugi&family=Open+Sans&family=Baloo+2&family=Coming+Soon&family=Hina+Mincho&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
 
   <!-- ICONS -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 <!-- Original Stylesheets -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="../styles.css">
 
   <title>Valerie Yamanaka | Portfolio</title>
+
+  <style>
+  .noto {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: .9vw;
+    font-weight: 400;
+  }
+
+  .kosugi {
+    font-family: 'Kosugi', sans-serif;
+    font-size: 1.1vw;
+    font-weight: 400;
+  }
+
+  </style>
 
 
 </head>
@@ -31,7 +46,7 @@
     <section class="section div-one is-medium">
       <div class="columns is-desktop">
         <div class="column"></div>
-        <div class="column is-4 center-when-small"><img src="self500.png"></div>
+        <div class="column is-4 center-when-small"><img src="../self500.png"></div>
         <div class="column is-4">
           <div class="mb-0">
             <h1 class="big-header comingsoon center-when-small">
@@ -62,12 +77,11 @@
             <div class="column"></div>
             <div class="column is-4">
               <p class="open center-when-small">
-                <img src="talkheart.png">
+                <img src="../talkheart.png">
             </div>
-            <div class="column is-8">
-              <p class="has-text-justified px-5 greeting-text baloo"> Hello! I'm Valerie,
-                a beginner programmer, cat-lover, board-game collector, and beer enthusiast.
-                American-born, Tokyo-based.
+            <div class="column is-9">
+              <p class="has-text-justified px-5 kosugi">
+                初心者プログラマーのヴァレリーです。ネコ・ビール好き、ボードゲームコレクター。アメリカ出身、東京在住。
                 <!-- <br><a href="about-valerie.html" class="button is-small is-light"
                 style="background: #9db09d;">> More Information</a> -->
             </div>
@@ -101,7 +115,7 @@
           </div>
           <div class="card-image">
             <figure class="image">
-              <img class="is-outlined" src="tabitest-ds.gif" alt="Placeholder image">
+              <img class="is-outlined" src="../tabitest-ds.gif" alt="Placeholder image">
             </figure>
           </div>
           <div class="card-content">
@@ -135,7 +149,7 @@
           </div>
           <div class="card-image">
             <figure class="image">
-              <img class="screenshot-border" src="rate-ds.gif" alt="Placeholder image">
+              <img class="screenshot-border" src="../rate-ds.gif" alt="Placeholder image">
             </figure>
           </div>
           <div class="card-content">
@@ -159,40 +173,38 @@
       </div>
 
 <!-- PORTFOLIO  -->
-          <div class="column">
-            <div class="box">
-              <div class="">
-                <div class="card-header-title">
-                  Valerie Yamanaka | Portfolio
+            <div class="column">
+              <div class="box">
+                <div class="">
+                  <div class="card-header-title">
+                    Valerie Yamanaka | Portfolio
+                  </div>
                 </div>
-              </div>
-              <div class="card-image">
-                <figure class="image">
-                  <img class="screenshot-border" src="portfolio-tn.gif" alt="Placeholder image">
-                </figure>
-              </div>
-              <div class="card-content">
-                <p class="has-text-justified">This very site! This page was created with Bulma to be responsive and readable on mobile as well as desktop.
-                  <br>
-                  <br><br>
-                  <center><a href="about-rate.html" class="button is-light">More Information</a></center>
-              </div>
+                <div class="card-image">
+                  <figure class="image">
+                    <img class="screenshot-border" src="../rate-ds.gif" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <p class="has-text-justified">This very site! This page was created with Bulma to be responsive and readable on mobile as well as desktop.
+                    <br>
+                    <br><br>
+                    <center><a href="about-rate.html" class="button is-light">More Information</a></center>
+                </div>
 
-              <div class="card-footer">
-                <div class="tags is-centered">
-                     <span class="tag" style="background-color: #D4E2D4;">HTML</span>
-                  <span class="tag is-warning">CSS</span>
-                  <span class="tag" style="background-color: #ECB390;">Github Pages</span>
-                  <span class="tag" style="background-color: #D4E2D4;">Bulma</span>
-                  <span class="tag" style="background-color: #FFFF;"></span>
-                  <span class="tag" style="background-color: #FFFF;"></span>
-                  <span class="tag" style="background-color: #FFFF;"></span>
-                  <span class="tag" style="background-color: #FFFF;"></span>
-                  <span class="tag" style="background-color: #FFFF;"></span>
+                <div class="card-footer">
+                  <div class="tags is-centered">
+                    <span class="tag" style="background-color: #D4E2D4;">Python</span>
+                    <span class="tag is-warning">Flask</span>
+                    <span class="tag" style="background-color: #ECB390;">PostgreSQL</span>
+                    <span class="tag" style="background-color: #D4E2D4;">Bulma</span>
+                    <span class="tag is-warning">[Deploy]</span>
+                    <span class="tag" style="background-color: #ECB390;">[Deploy]</span>
+                    <span class="tag" style="background-color: #D4E2D4;">[Deploy]</span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
 
 
