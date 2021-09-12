@@ -3,6 +3,14 @@ img {
   height: auto;
 }
 
+a {
+  color: #bf7d54;
+}
+
+a:hover {
+  color: #e1dac0;
+}
+
 @media (max-width: 550px) {
   .big-header {
     font-size: 9vw;
@@ -11,7 +19,7 @@ img {
   }
 
   .sub-header {
-    font-size: 4vw;
+    font-size: 7vw;
     color: #000;
     text-align: justify;
     text-align: center;

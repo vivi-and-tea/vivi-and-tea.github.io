@@ -26,11 +26,23 @@
   body {
     background-color: #d36950 !important;
     background-image: linear-gradient(#FCF8E8 0% 30%, #D4E2D4 30% 70%, #ECB390 70% 100%);
+    max-width: 100%;
+    overflow-x: hidden;
   }
 
   b, i {
     color: #c78f6d;
   }
+
+  @media (max-width: 550px) {
+
+
+    .box {
+      width: 100vw;
+      margin: 0px;
+      transform:translate;
+    }
+    }
 
 
   .fullsize {
@@ -46,7 +58,7 @@
 
   <div class="container is-fullhd fullsize">
 
-    <div class="columns">
+    <div class="columns is-desktop">
       <div class="column"></div>
       <div class="column is-6 pt-6">
         <div class="box mt-6">
@@ -66,8 +78,47 @@
 
             <hr>
 
+            <p class="has-text-justified block">User registration and authentication is handled by Django's built-in auth system. The navbar changes to allow logged in users to
+              submit new hotels and access their user page, as well as a moderation queue for users in the moderator group
+
             <br>
-            <center><img src="tabi-login.gif"></center>
+
+            <center><img src="tabi-login.gif">
+            <i>Navbar showing user-specific links</i></center>
+
+            <br>
+
+            <center><img src="tabi-nickname.gif">
+            <i>Changing nickname to be displayed on userpage/comments.</i></center>
+            <br><br>
+
+            <p class="has-text-justified block">Logged in users can submit new hotels,
+              including uploading hotel logos and images. The hotel is then added to the
+              the moderation queue.
+
+              <center><img src="tabi-addhotel.gif">
+              <i>Changing nickname to be displayed on userpage/comments.</i></center>
+              <br><br>
+
+
+            <p class="has-text-justified block">Users can rate and comment on hotel pages,
+              as well as add hotels to their favorites list. Comments also enter a
+              moderation queue.
+
+              <center><img src="tabi-search.gif">
+              <i>Searching for hotels.</i></center>
+              <br>
+
+
+              <center><img src="tabi-likes.gif">
+              <i>Liking and disliking hotels adds and removes them from your userpage.</i></center>
+              <br><br>
+
+
+
+
+
+
         </div>
       </div>
       <div class="column"></div>
