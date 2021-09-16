@@ -1,3 +1,32 @@
+body {
+  background-color: #d36950 !important;
+  background-image: linear-gradient(#FCF8E8 0% 30%, #D4E2D4 30% 70%, #ECB390 70% 100%);
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+b, i {
+  color: #c78f6d;
+}
+
+@media (max-width: 550px) {
+
+
+  .box {
+    width: 100vw;
+    margin: 0px;
+    transform:translate;
+  }
+  }
+
+
+.fullsize {
+  height: 100vh;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+
 img {
   max-width: 100%;
   height: auto;
