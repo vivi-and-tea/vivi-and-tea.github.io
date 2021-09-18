@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- BULMA CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans&family=Baloo+2&family=Coming+Soon&family=Hina+Mincho&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+  <!-- ICONS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- Original Stylesheets -->
+  <link rel="stylesheet" href="../styles.css">
+
+  <title>Valerie Yamanaka | Portfolio</title>
+
+</head>
+
+<body>
+
+  <div class="container is-fullhd fullsize">
+
+    <div class="columns is-desktop">
+      <div class="column"></div>
+      <div class="column is-6 pt-6">
+        <div class="box mt-6">
+          <a href="index.html"><ion-icon name="arrow-back-outline" size="large"></ion-icon></a>
+          <h1 class="big-header comingsoon has-text-centered">TabiNyans</h1>
+          <hr><br>
+          <center><img src="../tabitest-ds.gif">
+          <a href="#" class="button is-large">プレビュー</a>
+          <a href="https://github.com/vivi-and-tea/TabiNyans" class="button is-large">GitHub</a>
+<br /><br />
+            <table class="table">
+              <thead>
+                <tr>
+                  <th> </th>
+                  <th> ユーザー名</th>
+                   <th> パスワード</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>一般ユーザー</th>
+
+                  <td>testuser </td>
+                  <td>tabi9nyans </td>
+                </tr>
+                <tr>
+                  <th>モデレータ</th>
+                  <td>testmod </td>
+                  <td>tabi9mod </td>
+                </tr>
+              </tbody>
+              <i>テスト後パスワードを元に戻してください</i>
+              <br><i> 問題があれば、</i><a href="https://forms.gle/wk18DwHua6kcD7tt9">>連絡をお願いします<</a>
+            </table>
+
+        </center>
+          <br>
+
+          <p class="has-text-justified block"><ion-icon name="paw-outline"></ion-icon> <i>TabiNyans</i> は猫ホテルをレビュー・検索するモックサイトです。猫好きはご存じですが、猫専門か猫可のペットホテルを見つけるのは難しいです。<i>TabiNyans</i> はその問題を解決するアプリです。
+
+            <p class="has-text-justified block"><i>TabiNyans</i> はPythonとDjangoで作らました。デプロイするまで、DjangoのデフォルトSQLiteデータベースをつかって、そしてデプロイするためにpostgreSQLにしました。
+
+          <p class="has-text-justified block">インフラとして、静的コンテンツは<b>AWS S3</b>,　データベースは <b>AWS RDS</b>,　他は<b>AWS App Runner</b>に任せています。
+
+
+            <hr>
+
+            <p class="has-text-justified block">User registration and authentication is handled by Django's built-in auth system. The navbar changes to allow logged in users to
+              submit new hotels and access their user page, as well as a moderation queue for users in the moderator group
+
+            <br>
+
+            <center><img src="../tabi-login.gif">
+            <i>Navbar showing user-specific links</i></center>
+
+            <br>
+
+            <center><img src="../tabi-nickname.gif">
+            <i>Changing nickname to be displayed on userpage/comments.</i></center>
+            <br><br>
+
+            <p class="has-text-justified block">Logged in users can submit new hotels,
+              including uploading hotel logos and images. The hotel is then added to the
+              the moderation queue.
+
+              <center><img src="../tabi-addhotel.gif">
+              <i>Changing nickname to be displayed on userpage/comments.</i></center>
+              <br><br>
+
+
+            <p class="has-text-justified block">Anyone can search for hotels. Registered users
+              can add hotels to a favorites list.
+
+              <center><img src="../tabi-search.gif">
+              <i>Searching for hotels.</i></center>
+              <br>
+
+
+              <center><img src="../tabi-likes.gif">
+              <i>Liking and disliking hotels adds and removes them from Favorites on your userpage.</i></center>
+              <br><br>
+
+              <p class="has-text-justified block">Registered users can comment on and rate
+                 hotels. Comments enter a moderation queue.
+                 <br>
+
+                 <center><img src="../tabi-comment.gif">
+                 <i>Commenting on a hotel.</i></center>
+                 <br><br>
+
+             <p class="has-text-justified block">Users in the moderator group can
+               also see the moderation page, where they can approve or delete new comments
+               and hotels.
+
+                <br>
+                <center><img src="../tabi-mod.gif">
+                <i>Moderating new hotels and comments.</i></center>
+                <br><br>
+
+
+<a href="index.html"><ion-icon name="arrow-back-outline" size="large"></ion-icon></a>
+
+
+
+
+        </div>
+      </div>
+      <div class="column"></div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>
